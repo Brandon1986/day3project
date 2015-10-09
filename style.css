@@ -46,18 +46,50 @@ span {
 }
 
 .container {
-  width: 99%;
+  min-height: 800px;
 
 }
 .container section {
-  width: 49%;
   display: inline-block;
+  height;
 }
 .container h2{
+  width: 50%;
+  height: 100px;
+  padding-left: 120px;
+  font-size: 45px;
+  margin-bottom: 4px;
+}
+.container div {
+  display: inline-block;
+}
+.author-image {
+  width: 25%;
+  padding-left: 120px;
+}
+.author-image img {
+  width: 15px;
+}
+.image-caption {
+  width: 80px;
+  font-size:10px;
+  vertical-align: top;
+
+
+}
+
+.container .left {
+  width: 50%;
+  height: 180px;
+  padding: 0 150px 0 120px;
+}
+
+.container .right {
+  width: 20%;
 }
 
 .container2 {
-  background-color: blue;
+  background-color: white;
   width: 100%;
 }
 .container2 section{
