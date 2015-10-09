@@ -74,8 +74,6 @@ span {
   width: 80px;
   font-size:10px;
   vertical-align: top;
-
-
 }
 
 .container .left {
@@ -104,7 +102,7 @@ display: inline-block;
   width: 24%;
 }
 .container2 img {
-
+  width: 124%;
 }
 footer {
   min-height: 70px;
