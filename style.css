@@ -20,10 +20,10 @@ header img {
   height: 100%;
 }
 
-nav li  {
+header nav li  {
   display: inline-block;
 }
-nav ul {
+header nav ul {
   margin-top: 4px;
 }
 .logo {
@@ -49,7 +49,8 @@ span {
 }
 
 .container {
-  min-height: 800px;
+  width: 100%;
+  padding-bottom: 55px
 
 }
 .container section {
@@ -85,16 +86,14 @@ span {
   padding: 0 150px 0 120px;
 }
 .container .left h4 {
- width: ;
- height: 200px;
- overflow: auto;
+ width: 100%;
 }
 
 .social-media {
   width: 350px;
 }
 .social-media ul{
-  padding-left: 0;
+  margin: 0;
 }
  .social-media li {
    display: inline-block;
@@ -108,27 +107,60 @@ span {
   vertical-align: top;
 }
 
+.posts-header {
+  text-align: center;
+  border-top: solid thin lightgrey;
+}
+
 .container2 {
   background-color: white;
   width: 100%;
 }
 .container2 section{
-  width: 24%;
+  width: 24.69%;
   display: inline-block;
 }
+/*
 .cols {
 vertical-align: top;
 display: inline-block;
 }
 .col-4 {
   width: 24%;
-}
+}*/
 .container2 img {
-  width: 124%;
+  margin:  ;
+  padding: 0;
+  width: 101.3%;
 }
 footer {
   min-height: 70px;
   background-color: green;
+  margin-top: -3.9px;
+}
+
+footer section {
+  width: 100%;
+}
+footer ul {
+  width: 100%;
+  margin: 0%;
+  padding: 0;
+}
+footer p{
+  width: 50%;
+  margin: 0 ;
+  padding-top: 20px;
+  text-align: center;
+}
+footer nav {
+  width: 50%;
+  float: right;
+  text-align: center;
+  vertical-align: top;
+}
+footer nav li{
+  display: inline-block;
 }
 
 
@@ -170,19 +202,36 @@ footer {
     right: 204px;
 
 }
-.container h2{
-  padding: 0;
-  margin: auto;
-}
+
 .container2 section {
   display: block;
   margin: auto;
   width: 100%;
 }
 .container2 img {
-  width: 90%;
+  width: 72%;
+  padding: 3px 14%;
 }
-.container h4{
-  margin: auto;
+.container .left {
+  padding: 3px 14%;
+  width: 72%;
 }
+.container .author-image {
+  display: none;
+}
+
+.container .right{
+  width: 100%;
+}
+.container .right img {
+  width: 72%;
+  padding: 3px 14%;
+}
+.container .right p {
+  width: 72%;
+  padding: 3px 14%;
+}
+.container h2 {
+    width: 62%;
+    padding: 3px 14%;
 }
